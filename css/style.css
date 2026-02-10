@@ -59,7 +59,7 @@ nav .container .box .iconpart a i{
 /* navbar css ends here */
 /* collection css starts here */
 .collection {
-    background: url(/images/collection.png);
+    background: url(./images/collection.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -335,7 +335,7 @@ img {
 
 }
 .room .container .box .right .card-right .card1 {
-    background: url(/images/card1.png);
+    background: url(./images/card1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -343,7 +343,7 @@ img {
     height: 100%;
 }
 .room .container .box .right .card-left .card2 {
-    background: url(/images/card2.png);
+    background: url(./images/card2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
