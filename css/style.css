@@ -1,0 +1,543 @@
+/* common css starts here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container {
+    width: 1320px;
+ 
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+}
+/* common css ends here */
+/* navbar css starts here */
+nav {
+    background-color: #ffff;
+}
+nav .container .box {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+nav .container .box .logopart a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    transition: .5s;
+    
+}
+
+nav .container .box .menupart ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 75px;
+}
+nav .container .box .menupart ul  li a {
+      font-family: "Poppins", sans-serif;
+      color: rgba(0, 0, 0,1);
+      font-size: 16px;
+      font-weight: 500;
+ 
+   
+}
+nav .container .box .iconpart a{
+    color: black;
+        
+}
+nav .container .box .iconpart a i{
+    margin-left: 45px;
+    
+}
+
+/* navbar css ends here */
+/* collection css starts here */
+.collection {
+    background: url(/images/collection.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding-top: 147px;
+   padding-bottom: 159px;
+    
+}
+.collection .container .box .discover {
+    margin-left: 722px;
+    width: 643px;
+    height: 443px;
+    background-color:rgba(255, 243, 227,1);
+         
+      padding-left: 41px;
+}
+.collection .container .box .discover h2 {
+    font-family: "Poppins", sans-serif;
+              font-size: 16px;
+      font-weight: 600;
+      color: rgb(0, 0, 0,1);
+      padding-top: 62px;
+ 
+}
+.collection .container .box .discover h1 {
+    font-family: "Poppins", sans-serif;
+              font-size: 52px;
+      font-weight: 700;
+    
+      line-height: 65px;
+      width: 559px;
+      color: rgba(184, 142, 47,1);
+   
+}
+.collection .container .box .discover p {
+    font-family: "Poppins", sans-serif;
+              font-size: 18px;
+      font-weight: 500;
+     color: rgba(51, 51, 51,1);
+      width: 546px;
+      line-height: 24px;
+      padding-top: 17px;
+      padding-bottom: 46px;
+}
+.collection .container .box .discover a {
+    padding: 25px 72px;
+
+   background-color:rgba(184, 142, 47,1); 
+   color: rgba(255, 255, 255,1);
+   font-size: 16px;
+       font-family: "Poppins", sans-serif;
+       display: inline-block;
+       font-weight: 700;
+       transition: .4s;
+       border: 1px solid transparent;
+}
+.collection .container .box .discover a:hover {
+    background-color: rgba(255, 255, 255,1);
+    border: 1p solid black;
+    color: rgba(184, 142, 47,1); ;
+}
+/* collection css ends here */
+ /* range css starts her '*/
+ .range .collection .container .rangetext h2 {
+     font-family: "Poppins", sans-serif;
+              font-size: 32px;
+      font-weight: 700;
+      color: rgba(51, 51, 51,1);
+      margin-bottom: 5px;
+    
+ }
+.range .container .rangetext 
+{  margin-top: 37px;
+    text-align: center;
+}
+.range .container .rangetext p {
+         font-family: "Poppins", sans-serif;
+         font-weight: 400;
+         font-size: 20px;
+         color: rgba(102, 102, 102,1);
+
+}
+.range .container .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 34px;
+    padding-top: 63px;
+}
+.range .container .box .images {
+    width: 381px;
+    height: 480px;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+ .range .container .box .images p {
+    text-align: center;
+       font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 24px;
+         color: rgba(51, 51, 51,1);
+ }
+ /* range css ends here */
+ /* products css starts here */
+.products .container h2 {
+    text-align: center;
+      font-family: "Poppins", sans-serif;
+         font-weight: 700;
+         font-size: 40px;
+         line-height: 120%;
+         color: rgba(58, 58, 58,1);
+
+ }
+ .products{
+    padding-top: 56px;
+
+ }
+ .products .container .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 32px;
+ }
+.products .container .box .card {
+    width: 285px;
+    height: 446px;
+
+    position: relative;
+    overflow: hidden;
+    padding-top: 32px;
+     
+}
+
+.products .container .box .card img {
+    width: 100%;
+}
+.products .container .box .card .overly {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    transition: .4s;
+        padding-top: 175px;
+        padding-left: 41px;}
+      
+.products .container .box .card:hover .overly {
+    top: 0%;
+    overflow-y: visible;
+  
+}
+.products .container .box .card:hover .overly a {
+    padding: 12px 55px;
+    background-color: #ffff;
+    color: rgba(184, 142, 47,1);
+    display: inline-block;
+     font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 16px;
+
+}
+.products .container .box .card:hover .overly .icons-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding-top: 24px;
+    width: 100%;
+
+}
+.bijoy {
+    color: white;
+}
+.products .container .box .card:hover .overly .icons-card p {
+     font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 16px;
+        color: rgba(255, 255, 255,1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 7px;
+      
+      
+}
+.products .container .button {
+    padding-top: 44px;
+    text-align: center;
+}
+/* products css ends here */
+.products .container .button  a { 
+    color: rgba(184, 142, 47,1);
+    display: inline-block;
+    transition: .4s;
+    border: 1px solid #B88E2F;
+    background-color: white;
+    padding: 13px 84px;
+   
+  
+     font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 16px;
+         transition: .4s;
+       
+
+}
+.products .container .button  a:hover {
+    border: 1px solid black;
+    background-color: #B88E2F;
+    color: white;
+}
+.room {
+    background-color: #FCF8F3;
+     padding-top: 69px;
+     margin-top: 69px;
+}
+.room .container .box .left {
+    width: 40%;
+}
+  
+.room .container .box .left h4 {
+     font-family: "Poppins", sans-serif;
+         font-weight: 700;
+         font-size: 40px;
+         color: rgba(58, 58, 58,1);
+         width: 442px;
+}
+.room .container .box .left p {
+    font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 16px;
+         color: rgba(97, 97, 97,1);
+         width: 368px;
+         padding-top: 10px;
+         padding-bottom: 25px;
+}
+.room .container .box .left a {
+    background-color:rgba(184, 142, 47,1) ;
+    padding: 12px 36px;
+    color: #ffff;
+    display: inline-block;
+     font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 16px;
+         transition: .4s;
+         border: 1px solid transparent;
+
+}
+.room .container .box .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 27px;
+}
+.room .container .box .left a:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: rgba(184, 142, 47,1);
+}
+.room .container .box .right .card-right {
+    width: 404px;
+    height: 582px;
+    background-color: red;
+
+}
+.room .container .box .right .card-left {
+    width: 404px;
+    height: 582px;
+    background-color: red;
+
+}
+.room .container .box .right .card-right .card1 {
+    background: url(/images/card1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.room .container .box .right .card-left .card2 {
+    background: url(/images/card2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.room .container .box .right .card-right .card1 .card1box {
+    padding-top: 428px;
+    padding-left: 110px;
+}
+.room .container .box .right .card-left .card2 .card2box {
+    padding-top: 428px;
+    padding-left: 110px;
+}
+.room .container .box .right .card-right .card1 .card1box a {
+  background-color:rgba(184, 142, 47,1) ;
+    padding: 12px 36px;
+    color: #ffff;
+    display: inline-block;
+     font-family: "Poppins", sans-serif;
+         font-weight: 700;
+         font-size: 26px;
+         transition: .4s;
+         border: 1px solid transparent;  
+        }
+   .room .container .box .right .card-left .card2 .card2box a {
+  background-color:rgba(184, 142, 47,1) ;
+    padding: 12px 36px;
+    color: #ffff;
+    display: inline-block;
+     font-family: "Poppins", sans-serif;
+         font-weight: 700;
+         font-size: 26px;
+         transition: .4s;
+         border: 1px solid transparent;  
+        }     
+.room .container .box .right .card-right .card1 .card1box a:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: rgba(184, 142, 47,1) ;
+}
+.room .container .box .right .card-left .card2 .card2box a:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: rgba(184, 142, 47,1) ;
+}                  
+.room .container .box .right .card-right .card1 .card1box p {
+     font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 16px;
+         color: rgba(97, 97, 97,1);
+}
+.room .container .box .right .card-left .card2 .card2box p {
+     font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 16px;
+         color: rgba(97, 97, 97,1);
+}
+/* room  css ends here */
+/* warranty css starts here */
+.warranty {
+    background-color:  #FAF3EA;
+    transform: translateY(40px);
+    padding: 100px 0px;
+}
+.warranty .container .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.warranty .container .box .claim1 h4 {
+    font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 25px;
+         color: rgba(36, 36, 36,1);
+}
+.warranty .container .box .claim1 p {
+    font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 20px;
+}
+.warranty .container .box .claim2 h4 {
+    font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 25px;
+         color: rgba(36, 36, 36,1);
+}
+.warranty .container .box .claim2 p {
+    font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 20px;
+}
+.warranty .container .box .claim3 h4 {
+    font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 25px;
+         color: rgba(36, 36, 36,1);
+}
+.warranty .container .box .claim3 p {
+    font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 20px;
+}
+.warranty .container .box .claim4 h4 {
+    font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-size: 25px;
+         color: rgba(36, 36, 36,1);
+}
+
+.warranty .container .box .claim4 p {
+    font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 20px;
+}
+
+/* warranty css ends here */
+/* footer css starts here */
+footer {
+    background-color: #FFFFFF;
+    transform: translateY(100px); }
+
+footer .container .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .container .box .footer-box1 h4 {
+    color: rga(0, 0, 0,1);
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+footer .container .box .footer-box1 p{
+     font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: rgba(159, 159, 159,1);
+    width: 285px;
+}
+footer .container .box .footer-box2 ul li a {
+       font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0,1);
+    padding: 5px 0;
+}
+footer .container .box .footer-box2 h4 {
+       font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgba(159, 159, 159,1);
+}
+footer .container .box .footer-box3 ul li a {
+       font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0,1); }
+footer .container .box .footer-box3 h4 {
+       font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgba(159, 159, 159,1);
+}
+footer .container .box .footer-box4 h4 {
+       font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgba(159, 159, 159,1);
+}
+footer .container .box .footer-box4 form input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 5px 0;
+   
+}
+footer .container .before {
+    position: relative;
+}
+footer .container .before::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: #D9D9D9;
+    width: 96%;
+    height: 2px;
+}
+footer .container .footer-lastsection p {
+   color: rgba(0, 0, 0,1);
+     font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
